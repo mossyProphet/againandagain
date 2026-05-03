@@ -1,0 +1,18 @@
+{
+  "itemName" : "syndiCommanderHead",
+  "price" : 250,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headarmour",
+  "description" : "A helmet of syndicate commander costume.",
+  "shortdescription" : "Syndicate Commander Costume Helmet",
+  "tooltipKind" : "armor",
+  
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 1
+}

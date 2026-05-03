@@ -1,0 +1,42 @@
+{
+  "itemName" : "syndiChest",
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Chest of syndicate standart costume.",
+  "shortdescription" : "Syndicate Costume Chest",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+    "statusEffects" : [
+	{
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 2
+    },
+    {
+      "stat" : "protection",
+      "amount" : 52
+    },
+
+    {
+      "stat" : "maxEnergy",
+      "amount" : 300
+    },
+
+    {
+      "stat" : "maxHealth",
+      "amount" : 110
+    }
+  ]
+}
