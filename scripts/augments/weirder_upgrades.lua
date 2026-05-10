@@ -21,28 +21,27 @@ require "/scripts/augments/item.lua"
 
 function apply(input)
   local output = Item.new(input)
-
+  local abilityToMod = config.getParameter("abilityToMod") or "primary"
   local newPropertyToUpgrade = config.getParameter("changes")
-  --sb.logInfo("%s", config.getParameter("changes"))
-  local newPrimaryProp = output:instanceValue("primaryAbility")
-  sb.logInfo("%s", output:instanceValue("primaryAbility"))
-  --if newPropertyToUpgrade then
-	--	newPrimaryProp.newPropertyToUpgrade = newPrimaryProp.newPropertyToUpgrade * magnitudeOfUpgrade
-  --end
-  for parameter, value in pairs (newPropertyToUpgrade) do
-  --parameter is inaccuracy, baseDps, etc
-  --value is the value of those, so 0.01 for inaccuracy, 11 for baseDps, etc
-	if newPrimaryProp[parameter] then
-		newPrimaryProp[parameter] = newPrimaryProp[parameter] * value
-	else
-		newPrimaryProp[parameter] = value
+  if abilityToMod == "primary" then
+	local newPrimaryProp = output:instanceValue("primaryAbility")
+
+
+	for parameter, value in pairs (newPropertyToUpgrade) do
+	--parameter is inaccuracy, baseDps, etc
+	--value is the value of those, so 0.01 for inaccuracy, 11 for baseDps, etc
+		if newPrimaryProp[parameter] then
+			newPrimaryProp[parameter] = newPrimaryProp[parameter] * value
+		else
+			newPrimaryProp[parameter] = value
+		end
 	end
+	if newPrimaryProp.baseDps then
+	  newPrimaryProp.baseDps = newPrimaryProp.baseDps*1.05
+	end
+
+	output:setInstanceValue("primaryAbility", newPrimaryProp)
   end
-  if newPrimaryProp.baseDps then
-    newPrimaryProp.baseDps = newPrimaryProp.baseDps*1.05
-  end
-  --sb.logInfo("%s", newPrimaryProp.baseDamage)
-  output:setInstanceValue("primaryAbility", newPrimaryProp)
-  sb.logInfo("%s", output:instanceValue("primaryAbility"))
+  
   return output:descriptor(), 1
 end
