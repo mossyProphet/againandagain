@@ -1,0 +1,78 @@
+{
+  "animationCustom" : {
+    "animatedParts" : { "parts" : {
+      "sawlauncher" : {
+        "properties" : {
+          "zLevel" : -1,
+          "centered" : true,
+          "offset" : [-0.75, -0.5],
+          "transformationGroups" : ["muzzle"],
+          "firePosition" : [0.75, -0.375],
+          "image" : "/items/active/weapons/ranged/abilities/sawlauncher/sawlauncher.png"
+        }
+      }
+    }},
+    "sounds" : {
+      "altFire" : [ "/sfx/gun/grenade1.ogg" ]
+    },
+    "particleEmitters" : {
+      "altMuzzleFlash" : {
+        "active" : false,
+        "emissionRate" : 8,
+        "transformationGroups" : ["muzzle"],
+        "offsetRegion" : [-0.25, -0.5, -0.25, -0.5],
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] },
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+        ]
+      }
+    }
+  },
+
+  "ability" : {
+    "name" : "Ripjack Launcher",
+    "type" : "sawlauncher",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+
+    "elementalConfig" : {
+      "physical" : { "projectileType" : "ripjack_hyperblade" },
+      "fire" : { "projectileType" : "ripjack_hyperblade" },
+      "electric" : { "projectileType" : "ripjack_hyperblade" },
+      "ice" : { "projectileType" : "ripjack_hyperblade" },
+      "poison" : { "projectileType" : "ripjack_hyperblade" }
+    },
+    "projectileParameters" : {},
+    "projectileCount" : 1,
+    "inaccuracy" : 0,
+    "baseDamage" : 9,
+    "energyUsage" : 25,
+    "fireTime" : 2.0,
+    "fireType" : "auto",
+
+    "firePositionPart" : "sawlauncher",
+    "hidePrimaryMuzzleFlash" : true,
+
+    "stances" : {
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}

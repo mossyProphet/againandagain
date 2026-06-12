@@ -1,0 +1,45 @@
+{
+  "itemName": "sawlauncher",
+  "price": 2625,
+  "tooltipKind": "sidegrade",
+  "rarity": "legendary",
+  "itemTags": [ "weapon", "ranged", "pistol", "gun", "nonweapon" ],
+  "category": "weapon",
+  "tooltipFields": {
+    "subtitle": "Weapon Upgrade Kit"
+  },
+  "abilityToMod": "alt",
+  "altAbilityType": "sawlauncher",
+  "setInsteadofMultiply": true,
+  
+  "changes": {
+    "name" : "Ripjack Launcher",
+    "type" : "sawlauncher",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+  
+    "elementalConfig" : {
+      "physical" : { "projectileType" : "ripjack_hyperblade" },
+      "fire" : { "projectileType" : "ripjack_hyperblade" },
+      "electric" : { "projectileType" : "ripjack_hyperblade" },
+      "ice" : { "projectileType" : "ripjack_hyperblade" },
+      "poison" : { "projectileType" : "ripjack_hyperblade" }
+    },
+    "projectileType" : "ripjack_hyperblade",
+    "projectileParameters" : {},
+    "projectileCount" : 1,
+    "inaccuracy" : 0,
+    "baseDamage" : 9,
+    "energyUsage" : 25,
+    "fireTime" : 2.0,
+    "fireType" : "auto",
+  
+    "firePositionPart" : "sawlauncher",
+    "hidePrimaryMuzzleFlash" : true
+   },
+   
+  "inventoryIcon": "sawlauncher.png",
+  "description": "^white;Adds ripjack launcher. ^red;Said ripjack has indiscriminate damage.  ^orange;BONUS: average DPS increased by 5 percent^reset;\n^gray;Apply with right-click",
+  "shortdescription": "Ripjack Launcher Sidegrade Kit",
+  "scripts": [ "/scripts/augments/weirder_upgrades.lua" ]
+}

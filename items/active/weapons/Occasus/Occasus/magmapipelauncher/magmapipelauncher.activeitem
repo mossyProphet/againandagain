@@ -13,13 +13,13 @@
 
   "inventoryIcon": "magmapipelauncher.png",
 
-  "animation": "/items/active/weapons/weirdos/magmapipelauncher/magmapipelauncher.animation",
+  "animation": "/items/active/weapons/Occasus/Occasus/magmapipelauncher/magmapipelauncher.animation",
   "animationParts": {
     //"butt": "butt.png",
     "middle": "magmapipelauncher.png",
     //"middle": "middle.png",
     //"barrel": "barrel.png",
-    "muzzleFlash": "/items/active/weapons/weirdos/magmapipelauncher/magmapipelauncher_muzzleflash.png"
+    "muzzleFlash": "/items/active/weapons/Occasus/Occasus/magmapipelauncher/magmapipelauncher_muzzleflash.png"
     //"muzzleFlash": "/items/active/weapons/ranged/muzzleflash.png"
   },
   "animationCustom": {

@@ -133,55 +133,55 @@
     {
      "0":
         {
-         "image":"..\/..\/objects\/cultist\/cultistlantern\/cultisttiled.png",
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/mods\/againandagain\/objects\/cultist\/cultistlantern\/cultisttiled.png",
          "imageheight":14,
          "imagewidth":8
         },
      "1":
         {
-         "image":"..\/..\/objects\/cultist\/cultistgreateraltar\/cultistgreateraltartiled.png",
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/mods\/againandagain\/objects\/cultist\/cultistgreateraltar\/cultistgreateraltartiled.png",
          "imageheight":48,
          "imagewidth":32
         },
      "2":
         {
-         "image":"..\/..\/objects\/cultist\/cultistgraffittitzeentch\/cultistgraffititzeentchicon.png",
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/mods\/againandagain\/objects\/cultist\/cultistgraffittitzeentch\/cultistgraffititzeentchicon.png",
          "imageheight":32,
          "imagewidth":32
         },
      "3":
         {
-         "image":"..\/..\/objects\/cultist\/cultistgraffittikhorne\/cultistgraffitikhorneicon.png",
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/mods\/againandagain\/objects\/cultist\/cultistgraffittikhorne\/cultistgraffitikhorneicon.png",
          "imageheight":32,
          "imagewidth":32
         },
      "4":
         {
-         "image":"..\/..\/objects\/human\/gymlifterbed\/gymlifterbed.png",
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/mods\/againandagain\/objects\/human\/gymlifterbed\/gymlifterbed.png",
          "imageheight":32,
          "imagewidth":46
         },
      "5":
         {
-         "image":"..\/..\/objects\/human\/gympulluprack\/gympulluprack.png",
+         "image":"..\/..\/..\/..\/..\/..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/mods\/againandagain\/objects\/human\/gympulluprack\/gympulluprack.png",
          "imageheight":56,
          "imagewidth":24
         },
      "6":
         {
-         "image":"..\/..\/..\/..\/tiled\/packed\/ruinpoisontrap_orientation4.png",
+         "image":"..\/..\/..\/..\/tiled\/packed\/cultist\/ruinpoisontrap_orientation4.png",
          "imageheight":8,
          "imagewidth":16
         },
      "7":
         {
-         "image":"..\/..\/..\/..\/tiled\/packed\/ruingrowthbulbceilingtileset.png",
+         "image":"..\/..\/..\/..\/tiled\/packed\/cultist\/ruingrowthbulbceilingtileset.png",
          "imageheight":8,
          "imagewidth":16
         },
      "8":
         {
-         "image":"..\/..\/..\/..\/tiled\/packed\/ruinatortiled.png",
+         "image":"..\/..\/..\/..\/tiled\/packed\/cultist\/ruinatortiled.png",
          "imageheight":64,
          "imagewidth":32
         }

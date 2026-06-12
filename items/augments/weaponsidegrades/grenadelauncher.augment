@@ -1,0 +1,42 @@
+{
+  "itemName": "grenadelauncher",
+  "price": 2625,
+  "tooltipKind": "sidegrade",
+  "rarity": "legendary",
+  "itemTags": [ "weapon", "ranged", "pistol", "gun", "nonweapon" ],
+  "category": "weapon",
+  "tooltipFields": {
+    "subtitle": "Weapon Upgrade Kit"
+  },
+  "abilityToMod": "alt",
+  "altAbilityType": "grenadelauncher",
+  "setInsteadofMultiply": true,
+  "changes": {
+    "name" : "Grenade Launcher",
+    "type" : "grenadelauncher",
+    "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+    "class" : "AltFireAttack",
+
+    "elementalConfig" : {
+      "physical" : { "projectileType" : "impactgrenade" },
+      "fire" : { "projectileType" : "firecloudgrenade" },
+      "electric" : { "projectileType" : "electriccloudgrenade" },
+      "ice" : { "projectileType" : "icecloudgrenade" },
+      "poison" : { "projectileType" : "poisoncloudgrenade" }
+    },
+    "projectileParameters" : {},
+    "projectileCount" : 1,
+    "inaccuracy" : 0,
+    "baseDamage" : 9,
+    "energyUsage" : 25,
+    "fireTime" : 2.0,
+    "fireType" : "auto",
+
+    "firePositionPart" : "grenadelauncher",
+    "hidePrimaryMuzzleFlash" : true
+   },
+  "inventoryIcon": "grenadelauncher.png",
+  "description": "^red;Increases heat production by half, ^white;but increases damage by 25 percent. ^orange;BONUS: average DPS increased by 5 percent^reset;\n^gray;Apply with right-click",
+  "shortdescription": "Grenade Launcher Sidegrade Kit",
+  "scripts": [ "/scripts/augments/weirder_upgrades.lua" ]
+}

@@ -26,7 +26,7 @@
   "twitchTime": [ 0.4, 1.5 ],
   "twitchMagnitude": 0.2,
 
-  "scripts": [ "/items/active/weapons/weirdos/somethingthere/khornesword.lua" ],
+  "scripts": [ "/items/active/weapons/Occasus/chaos/somethingthere/khornesword.lua" ],
 
   "elementalType": "fire",
 

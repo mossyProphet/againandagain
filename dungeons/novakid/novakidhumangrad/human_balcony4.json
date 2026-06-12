@@ -5,7 +5,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJx7w8DA8GaA8VogngrEO6A0rfAOHHbvgOISGmJCdk8jAa8lUf2o3YPPbgkaYkJ20xoPJrtpGc7oeKDLURAGAOwj6zY=",
+         "data":"eJx7w8DA8GaA8VogngrEO6A0rfBaHHbvgOISGmCY2YTsnkYCXkukulG7B6\/dEjTAxNpNSzzY7KZFOGPD2OweCAwAX9fuQA==",
          "encoding":"base64",
          "height":12,
          "id":1,
@@ -19,7 +19,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJxjYBh4sINOeC29PIQF7BhAu0fBKBipgF5ly2DJ3wAbsCd+",
+         "data":"eJxjYBh4sIOOeBSMglEwcsBIK1sAJo8m0Q==",
          "encoding":"base64",
          "height":12,
          "id":2,
@@ -86,18 +86,6 @@
                  "y":56
                 }, 
                 {
-                 "gid":7909,
-                 "height":16,
-                 "id":1435,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":32,
-                 "y":80
-                }, 
-                {
                  "gid":8004,
                  "height":15,
                  "id":1440,
@@ -119,6 +107,30 @@
                  "visible":true,
                  "width":16,
                  "x":72,
+                 "y":80
+                }, 
+                {
+                 "gid":8036,
+                 "height":13,
+                 "id":1442,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":23,
+                 "x":32,
+                 "y":80
+                }, 
+                {
+                 "gid":8036,
+                 "height":13,
+                 "id":1443,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":23,
+                 "x":192,
                  "y":80
                 }],
          "opacity":1,
@@ -285,7 +297,7 @@
          "y":0
         }],
  "nextlayerid":11,
- "nextobjectid":1442,
+ "nextobjectid":1444,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.2",
@@ -389,7 +401,7 @@
         }, 
         {
          "firstgid":7327,
-         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/Packed\/tilesets\/packed\/objects-by-colonytag\/human.json"
+         "source":"..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/tilesets\/packed\/objects-by-colonytag\/human.json"
         }, 
         {
          "firstgid":7574,
@@ -406,6 +418,10 @@
         {
          "firstgid":7997,
          "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/tilesets\/packed\/objects-by-colonytag\/apexvillage.json"
+        }, 
+        {
+         "firstgid":8035,
+         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/mods\/againandagain\/tilesets\/moogcity\/chemPromObjects.json"
         }],
  "tilewidth":8,
  "type":"map",

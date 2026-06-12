@@ -86,63 +86,15 @@
                  "y":40
                 }, 
                 {
-                 "gid":7702,
-                 "height":24,
-                 "id":1420,
+                 "gid":7942,
+                 "height":48,
+                 "id":1426,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":56,
+                 "width":74,
                  "x":40,
-                 "y":80
-                }, 
-                {
-                 "gid":7702,
-                 "height":24,
-                 "id":1422,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":56,
-                 "x":40,
-                 "y":56
-                }, 
-                {
-                 "gid":7757,
-                 "height":32,
-                 "id":1423,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":96,
-                 "y":80
-                }, 
-                {
-                 "gid":7702,
-                 "height":24,
-                 "id":1424,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":56,
-                 "x":120,
-                 "y":80
-                }, 
-                {
-                 "gid":7702,
-                 "height":24,
-                 "id":1425,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":56,
-                 "x":176,
                  "y":80
                 }],
          "opacity":1,
@@ -299,7 +251,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -315,7 +267,7 @@
          "y":0
         }],
  "nextlayerid":11,
- "nextobjectid":1426,
+ "nextobjectid":1427,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.2",
@@ -432,6 +384,10 @@
         {
          "firstgid":7695,
          "source":"..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/tilesets\/packed\/objects-by-colonytag\/human.json"
+        }, 
+        {
+         "firstgid":7942,
+         "source":"..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/mods\/againandagain\/tilesets\/moogCity\/chemPromObjects.json"
         }],
  "tilewidth":8,
  "type":"map",

@@ -13,5 +13,10 @@
 		"op": "add",
 		"path": "/buffingray",
 		"value": "/items/active/weapons/ranged/abilities/wrangler/buffingray.weaponability"
+	},
+	{
+		"op": "add",
+		"path": "/sawlauncher",
+		"value": "/items/active/weapons/ranged/abilities/sawlauncher/sawlauncher.weaponability"
 	}
 ]
