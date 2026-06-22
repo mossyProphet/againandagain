@@ -132,8 +132,8 @@
       "runSpeed": 10,
       "gravityEnabled": false,
 
-      "airFriction": 2,
-      "airForce": 50,
+      "airFriction": -10,
+      "airForce": 5000,
       "flySpeed": 10
     },
 

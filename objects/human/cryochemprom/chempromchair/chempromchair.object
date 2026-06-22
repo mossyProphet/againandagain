@@ -1,6 +1,6 @@
 {
   "objectName" : "chempromchair",
-  "colonyTags" : ["human","chemprom"],
+  "colonyTags" : ["human"],
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 75,
@@ -16,7 +16,7 @@
   "glitchDescription" : "Envious. This chair is most delightful.",
   "humanDescription" : "Why is this chair made of wood? Are they poor?",
   "hylotlDescription" : "This chair flows like script on a page.",
-  \\"novakidDescription" : "An egg shaped chair. It's pretty cool I guess.",
+  "novakidDescription" : "Ol' reliable chair. Pretty vanilla",
 
 
   "inventoryIcon" : "chempromchair.png",

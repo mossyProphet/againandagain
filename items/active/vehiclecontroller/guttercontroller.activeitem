@@ -1,0 +1,34 @@
+{
+  "itemName" : "guttercontroller",
+  "level" : 1,
+  "price" : 15000,
+  "rarity" : "Rare",
+  "category" : "vehicleController",
+  "description" : "It hurts to hold this thing in a pocket",
+  "shortdescription" : "Gutter Controller",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "gutterpreview.png",
+
+  "respawnTime" : 1.0,
+
+  "vehicleType" : "apexmech",
+  "vehicleBoundingBox" : [-5, -3, 5, 3],
+  "vehicleImage" : "/items/active/vehiclecontroller/gutterpreview.png",
+
+  "animationParts" : {
+    "casing" : "hoverbikecontrollergreen.png"
+  },
+
+  "inventoryIcon" : "hoverbikecontrollergreen.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/hoverbikecontrollergreen.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/hoverbikecontrollergreen.png:full"
+
+}

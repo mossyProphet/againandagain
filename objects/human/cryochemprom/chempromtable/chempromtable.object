@@ -1,12 +1,12 @@
 {
-  "objectName" : "apextable",
-  "colonyTags" : ["apex","apexvillage","commerce"],
+  "objectName" : "chempromtable",
+  "colonyTags" : ["human","humanvillage","commerce"],
   "rarity" : "Common",
   "category" : "furniture",
   "price" : 85,
   "description" : "A basic mass produced table.",
   "shortdescription" : "Standard Issue Table",
-  "race" : "apex",
+  "race" : "human",
 
   "apexDescription" : "Every Apex eats their dinner on a table just like this one. Well... at least every Apex following the rules.",
   "avianDescription" : "Poor-quality wood was used to fashion this table.",
@@ -16,10 +16,10 @@
   "hylotlDescription" : "Forced hands built this table.",
   "novakidDescription" : "It's just a wooden table.",
 
-  "inventoryIcon" : "apextableicon.png",
+  "inventoryIcon" : "chempromtableicon.png",
   "orientations" : [
     {
-      "dualImage" : "apextable.png:<color>",
+      "dualImage" : "chempromtable.png:<color>",
       "imagePosition" : [-16, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
