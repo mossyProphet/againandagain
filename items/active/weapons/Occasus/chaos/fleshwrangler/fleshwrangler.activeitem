@@ -6,7 +6,6 @@
   "rarity": "Legendary",
   "description": "To guide your helpers with an iron grip",
   "shortdescription": "Guiding Hand",
-  //"tooltipKind": "gun",
   "category": "uniqueWeapon",
   "twoHanded": true,
   "itemTags": [ "weapon", "ranged", "livingweapon", "upgradeableWeapon" ],
@@ -100,11 +99,7 @@
           "power": -100,
           "timeToLive": 3,
           "speed": 150
-        },
-
-        "energyUsage": 30,
-        "fireTime": 0.5,
-        "power": 0
+        }
       }
     },
     "energyUsage": 30,

@@ -41,46 +41,14 @@
 			"rules": [
 				[
 					"maxSpawnCount",
-					[ 1 ]
+					[ 12 ]
 				]
 			],
-			"def": [ "tmx", "occasusbuoyantlaboratoriesrooms.json" ],
+			"def": [ "tmx", "occasusbuoyantbasement.json" ],
 			"chance": 1
 		},
-
-		{
-			"name": "basementtu",
-			"rules": [
-				[
-					"maxSpawnCount",
-					[ 3 ]
-				]
-			],
-			"def": [ "tmx", "occasusbuoyantlivingrooms.json" ],
-			"chance": 1
-		},
-		{
-			"name": "basementtri",
-			"rules": [
-				[
-					"maxSpawnCount",
-					[ 4 ]
-				]
-			],
-			"def": [ "tmx", "occasusbuoyantstoragerooms.json" ],
-			"chance": 1
-		},
-		{
-			"name": "basementfor",
-			"rules": [
-				[
-					"maxSpawnCount",
-					[ 1 ]
-				]
-			],
-			"def": [ "tmx", "occasusbuoyantsciencingrooms.json" ],
-			"chance": 1
-		},
+		
+		
 		{
 			"name": "edgeleft",
 			"rules": [
@@ -145,6 +113,35 @@
 		},
 		{
 			"name": "surface",
+			"rules": [
+				[
+					"doNotConnectToPart",
+					[ "edgeright", "edgeleft", "base", "ascent", "capright", "capleft" ]
+				],
+				[ "ignorePartMaximumRule" ]
+			],
+			"def": [ "tmx", "occasusbuoyantbasesurfacecap.json" ],
+			"chance": 0
+		},
+		
+		{
+			"name": "surfaceBuildingLeftTreatmentBuilding",
+			"rules": [
+				[
+					"doNotConnectToPart",
+					[ "edgeright", "edgeleft", "base", "ascent", "capright", "capleft" ]
+				],
+				[
+					"maxSpawnCount",
+					[ 1 ]
+				],
+				[ "ignorePartMaximumRule" ]
+			],
+			"def": [ "tmx", "occasusbuoyantbasesurfacecaplefttreatmentbuilding.json" ],
+			"chance": 1
+		},
+		{
+			"name": "surfaceStorage",
 			"rules": [
 				[
 					"doNotConnectToPart",

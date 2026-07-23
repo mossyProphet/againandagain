@@ -1,12 +1,17 @@
 {
   "type": "dungeater",
-  "baseType": "hostile",
+  "baseType": "guard",
+  "scripts" : [
+    "/npcs/bmain.lua",
+    "/npcs/so_factionguard.lua"
+  ],
 
   "persistent": true,
 
   "dropPools": [ "cultisttreasure" ],
 
   "scriptConfig": {
+	"npcFaction" : 3,
     "dialog": {
       "attack": "/dialog/dungeater.config:attack"
     }

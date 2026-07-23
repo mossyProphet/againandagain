@@ -21,9 +21,12 @@
 
 
 
-    "scripts": [
-      "/monsters/monster.lua"
+    "scripts" : [
+      "/monsters/monster.lua",
+       "/monsters/so_factionguard.lua"
     ],
+    "npcFaction" : 3,
+    "distanceOfRecognition" : 75,
 
     "behavior": "monster",
 

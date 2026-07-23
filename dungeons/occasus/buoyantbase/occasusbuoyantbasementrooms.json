@@ -1,12 +1,12 @@
 { "compressionlevel":-1,
- "height":34,
+ "height":15,
  "infinite":false,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJzlmU1uAjEMhQfNJiNWXLurSr1E78KuJ6oqYfX18ew4Ew+iYmGBmIzjL\/6NOC\/Lcn5heT8ty+Um\/J1lW3Pi6fsIZMSO2XWK\/XLybTX27Dp1Dln2nv7ZdaPsijuzJ8fEK7HzOu8Mqtkje5HdE9aVWRfp2ytZ\/WhrZC+yf96EvzN7dh2LrXsLJGtHbx3vq9bNsLf1r\/Rs47M4ih3zaZb9uvxKpIvPIitZdrSjwt6jYj7Sx77unQ3r78Vy1o5nq3VKf+9s9tqR9Tvug3Wrwu8c81ifsU4o\/RgbM37vxZDtE7FbzZtht7XcHxTTFuTGo9jNL1Xsm4gxjj\/cG38\/It+RnXNTsVeJ+d\/Lc7PDY8\/ke29GRHac0+2T2ZW+3lwf2YE9u633ei+wf\/U831Z\/3x674lW\/PRt7W+\/Zce+IPXuHxdqOLN4diNntHbR3hN2TH10\/MxLmOvY7zkk1y4\/mtnoHZzXbi99Fe6\/L\/TMv39X8zbO69RJ85vnd61WqvvPdQ92BOE7QF9gblB24LtPjtlXnD+riuwz6g9kzYu81YuK6yDEWsXvzyCw7vsOxiOzROXB\/b46t3hk1wa5m\/wp23h9jMsp5e8eL9x4710R1Lqq\/75ltjIPvhGq2wVrEdSBb67wahs+4hqkayXddTzJ+Z99hjOE73Ft4BszOtFEeW95H9aRqnm+kz8tjr76qmpVhVzmu8p37yCPYvX7EfYfrEfL02L0e1+uFnq9G2dWeUa3DXqdyJVvn98gMe4WoOsXP+Q5WISNnpmrd6H8COFOrfI\/0YV1khtn\/JtjvFfe4DBPyqHsWruPZAc+hyo4j2RswjeSmusuN3P8q2a9PKmpeqZLzP5Cv05iM6P4GwAQfxw==",
+         "data":"eJztlj0KwCAMRiOO8fCCxxI6OLr2Iq1oUAq1v0vrNzyi0SS+TSaioMaEV3er9nEF1hmjc16irOWO6\/S6gykzeUN7blXNuYZe3+Qt7jNdQ+ZEXWfFxv1szUR5n6J\/cdbR2+EOd7jDHe5whzvc\/+YeHtR\/2V3+9CO7j8oC6KzHlQ==",
          "encoding":"base64",
-         "height":34,
+         "height":15,
          "id":2,
          "name":"back",
          "opacity":0.5,
@@ -18,9 +18,9 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJztl9EJwzAMBZMp2rEzRufwHt2lFBoiMHH\/7gx+BwLhH+mQQ+Rt83iItU+OnYuTtl9h9lFzkibVjXufk8SdJ+59ThJ3nrhfORVtENZu8\/oFeQfIud851nMS+s4b873D+t5nIO4eT7G26W56f7HnTjP6v6\/Ear6VGdzrbkP2Q9f6t9cdoD9ZZ7TTrvyWMZjlDWsQd5649zlJ3Hni3ucks7jTu03F3G0s3nIPH\/awy+s=",
+         "data":"eJxjYBjZwIeZfvgQI25MT3cMNAD5d6SCUb+PTDDq95EJRv0+MsGo30cmGPX7wIInzPTD+Nrz9HTHSAcAzLFUcA==",
          "encoding":"base64",
-         "height":34,
+         "height":15,
          "id":3,
          "name":"front",
          "opacity":1,
@@ -45,7 +45,7 @@
                  "visible":true,
                  "width":24,
                  "x":472,
-                 "y":168
+                 "y":80
                 }, 
                 {
                  "gid":6,
@@ -57,55 +57,7 @@
                  "visible":true,
                  "width":24,
                  "x":8,
-                 "y":168
-                }, 
-                {
-                 "gid":604,
-                 "height":24,
-                 "id":6,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":464,
-                 "y":216
-                }, 
-                {
-                 "gid":604,
-                 "height":24,
-                 "id":7,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":464,
-                 "y":40
-                }, 
-                {
-                 "gid":603,
-                 "height":24,
-                 "id":8,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":16,
-                 "y":40
-                }, 
-                {
-                 "gid":603,
-                 "height":24,
-                 "id":9,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":24,
-                 "x":16,
-                 "y":216
+                 "y":80
                 }, 
                 {
                  "gid":489,
@@ -116,20 +68,8 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":384,
-                 "y":56
-                }, 
-                {
-                 "gid":489,
-                 "height":14,
-                 "id":54,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":8,
-                 "x":384,
-                 "y":232
+                 "x":368,
+                 "y":40
                 }, 
                 {
                  "gid":489,
@@ -140,20 +80,67 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":112,
-                 "y":56
-                }, 
+                 "x":128,
+                 "y":40
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":false,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":5,
+         "name":"anchors etc",
+         "objects":[
                 {
-                 "gid":489,
-                 "height":14,
-                 "id":56,
+                 "gid":479,
+                 "height":8,
+                 "id":57,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":112,
-                 "y":232
+                 "x":0,
+                 "y":104
+                }, 
+                {
+                 "gid":479,
+                 "height":8,
+                 "id":58,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":496,
+                 "y":104
+                }, 
+                {
+                 "gid":478,
+                 "height":8,
+                 "id":59,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":248,
+                 "y":8
+                }, 
+                {
+                 "gid":477,
+                 "height":8,
+                 "id":60,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":248,
+                 "y":120
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -161,24 +148,24 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":5,
- "nextobjectid":57,
+ "nextlayerid":6,
+ "nextobjectid":61,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.11.2",
+ "tiledversion":"1.10.2",
  "tileheight":8,
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/tilesets\/packed\/objects-by-colonytag\/cultist.json"
+         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Packed\/tilesets\/packed\/objects-by-colonytag\/cultist.json"
         }, 
         {
          "firstgid":10,
-         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/tilesets\/packed\/miscellaneous.json"
+         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Packed\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
          "firstgid":34,
-         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/tilesets\/packed\/materials.json"
+         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Packed\/tilesets\/packed\/materials.json"
         }, 
         {
          "firstgid":231,
@@ -197,20 +184,24 @@
          "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/mods\/againandagain\/tilesets\/occasus\/occasus.json"
         }, 
         {
-         "firstgid":495,
-         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/tilesets\/packed\/objects-by-colonytag\/human.json"
+         "firstgid":498,
+         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Packed\/tilesets\/packed\/objects-by-colonytag\/human.json"
         }, 
         {
-         "firstgid":742,
-         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/tilesets\/packed\/objects-by-colonytag\/science.json"
+         "firstgid":745,
+         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Packed\/tilesets\/packed\/objects-by-colonytag\/science.json"
         }, 
         {
-         "firstgid":760,
-         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/tilesets\/packed\/objects-by-colonytag\/office.json"
+         "firstgid":763,
+         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Packed\/tilesets\/packed\/objects-by-colonytag\/office.json"
         }, 
         {
-         "firstgid":770,
+         "firstgid":773,
          "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/mods\/againandagain\/tilesets\/occasus\/ruinmaterials.json"
+        }, 
+        {
+         "firstgid":813,
+         "source":"..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/mods\/againandagain\/tilesets\/moogCity\/materials_black.json"
         }],
  "tilewidth":8,
  "type":"map",

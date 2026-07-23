@@ -36,7 +36,7 @@
     "hidePrimaryMuzzleFlash" : true
    },
   "inventoryIcon": "grenadelauncher.png",
-  "description": "^red;Increases heat production by half, ^white;but increases damage by 25 percent. ^orange;BONUS: average DPS increased by 5 percent^reset;\n^gray;Apply with right-click",
+  "description": "^white; Gives you a grenade launcher ^orange;BONUS: average DPS increased by 5 percent^reset;\n^gray;Apply with right-click",
   "shortdescription": "Grenade Launcher Sidegrade Kit",
   "scripts": [ "/scripts/augments/weirder_upgrades.lua" ]
 }

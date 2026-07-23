@@ -1,12 +1,18 @@
 {
   "type": "foundrybuster",
-  "baseType": "hostile",
+  
 
   "persistent": true,
 
   "dropPools": [ "cultisttreasure" ],
-
+  "baseType": "guard",
+  "scripts" : [
+    "/npcs/bmain.lua",
+    "/npcs/so_factionguard.lua"
+  ],
   "scriptConfig": {
+    "npcFaction" : 3,
+    
     "dialog": {
       "attack": "/dialog/buster.config:attack"
     }

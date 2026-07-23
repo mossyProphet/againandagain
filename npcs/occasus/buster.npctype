@@ -1,13 +1,19 @@
 {
   "type": "buster",
-  "baseType": "hostile",
+  "baseType": "guard",
+  "scripts" : [
+    "/npcs/bmain.lua",
+    "/npcs/so_factionguard.lua"
+  ],
 
   "persistent": true,
 
   "dropPools": [ "cultisttreasure" ],
 
   "scriptConfig": {
-    "dialog": {
+    "npcFaction" : 3,
+    
+	"dialog": {
       "attack": "/dialog/buster.config:attack"
     }
   },

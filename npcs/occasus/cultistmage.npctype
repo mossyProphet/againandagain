@@ -1,13 +1,19 @@
 {
   "type" : "cultistmage",
-  "baseType" : "hostile",
+  "baseType": "guard",
+  "scripts" : [
+    "/npcs/bmain.lua",
+    "/npcs/so_factionguard.lua"
+  ],
 
   "persistent" : true,
 
   "dropPools" : [ "cultisttreasure" ],
 
   "scriptConfig" : {
-    "dialog" : {
+    "npcFaction" : 3,
+    "distanceOfRecognition" : 750,
+	"dialog" : {
       "attack" : "/dialog/cultist.config:attack"
     }
   },

@@ -3,6 +3,8 @@ require "/scripts/interp.lua"
 
 -- Base gun fire ability
 GunFire = WeaponAbility:new()
+preciseShooting = 1.0
+
 
 function GunFire:init()
   self.weapon:setStance(self.stances.idle)
@@ -12,12 +14,17 @@ function GunFire:init()
   self.weapon.onLeaveAbility = function()
     self.weapon:setStance(self.stances.idle)
   end
+  
 end
 
 function GunFire:update(dt, fireMode, shiftHeld)
   activeItem.setCursor("/cursors/gunheatindicecool.cursor")
   WeaponAbility.update(self, dt, fireMode, shiftHeld)
-  if shiftHeld then preciseShooting = 0.5 else preciseShooting = 1.0 end
+  if shiftHeld then 
+    preciseShooting = 0.5 
+   else 
+    preciseShooting = 1.0 
+   end
   self.cooldownTimer = math.max(0, self.cooldownTimer - self.dt)
 
   if animator.animationState("firing") ~= "fire" then

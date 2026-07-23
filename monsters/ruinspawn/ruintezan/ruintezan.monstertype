@@ -30,9 +30,11 @@
       "/scripts/actions/time.lua",
       "/scripts/actions/projectiles.lua",
       "/scripts/behavior.lua",
-      "/scripts/behavior/bdata.lua"
+      "/scripts/behavior/bdata.lua",
+       "/monsters/so_factionguard.lua"
     ],
-
+    "npcFaction" : 3,
+    "distanceOfRecognition" : 2700,
     "behavior": "monster",
 
     "behaviorConfig": {

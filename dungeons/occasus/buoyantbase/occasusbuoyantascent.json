@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztmVFuwjAQRO1Lc4v80JNU8kG4DOG3qsQqj2HWgNSWjdQPC+IkOH6enV2HU2\/t9N9+rR3QztI+23Pt8MK1s\/ZuFmzfzzPaxmLI8fHK7HhtS9uOH33ynqVtY8XxQKvMZeB5yYVz\/T5\/lP5Dv2fB6+Mechk74nK5zoNxpHNVLuznuaXd9l2u7Yxz\/F6RSzAJLlzD2fqTCdnwmrhPx2Crqpd45tD42m+5OL9wOnG6if7Qn3KpHEfKhWuoTOi9qolZrJEL2VTlEmt5kfVee55P6QkuTy\/mnuCi8UbffjcL1YvmI3LJcozrV79l\/xlj8ZoYt5penuXC2kR9l3l65rsVuXwkLatfIhYyPWT1nHJR31Uu9DL3fFW5ZLWreq3mqiwnqbfvlUu2D8j2A5qrNJZYy+2NyyJcdM5aw6i\/6Pn4jchLymUpzkXXU\/ORq\/NncaSx5PaNMV51Lqy5ZnphTGV60euVCzValYvuHSNXu7olO3Z7pehf+7650F\/WvjWNI849y+O8nr+1By76vi54sJbnfDi\/T3BxewS3HyDPs2isEhfqhTpxvun2g04vTjsuH1XWi+phtO09QxY3jssjD9qb72rcOy6z97ta02Q5a296CSZ8XnJ6tA9wXFzsHfo9\/71w4fqr92bvV5xPu+8cJ8aq7rta646W68XVbmu\/1Yn7zvqF41XVS3Bh\/TJkrhkbzV2zmjf0MmS8qlx03dRfdE9MDrN6z+Vwx6Xq\/oj\/Mc7yNL1T\/TXzWu0nF2qzKhetVbP6lnuEWb2X+RJ9lzqpyoX\/h3IN3Xyz3J3lZnJY+33MVtaLxhLXUv0lq\/W0OV9SLqMwF+Yj54UZA32\/kOUtZaP65P8B7+DyCrO\/XpufHPMLSRSblQ==",
+         "data":"eJztmEsSgjAMhhvvv9SreAVXbjgNw8rpaMdQUmiSKklhkcEHnYaPP68OEMJw2s\/scQnhHkJ4fq4jfD\/H\/66wtPh7vG+C9zXeG22C7XVprxGWe+3NosSF8nXt+U4uZb0kJvh7LResU8tc0jMmvzlx1DMXytfaOOqRS4od7OuWXnA+kXChcvzeLFrEUc4F66fnvHvmlzmLWi5HiCPsH1cvaQ3Wj6c4uhWslF+4\/UuLvo7yzzMXrBdNHFnlIskved6tjSPqHVjmwq3T0nrklYs0jjR51yoXST1KzyfJu170Iq3TR8ovtXNjyznAKhdJnZaeS3nQC35v3POXnvs6aj7i6kVSj6zrZQLafpF31\/ayxoWaG0v+tzAveqHO62rrEbd\/WTsbtMZFUo\/yOUDT11nlotFLij1NPbLKZa12cuej2jiieoKeuGj6Ok964fZ1ed6tWeeFi7bfldYj61w05y8jzPOLZJ72wEV6jsmNIyt64TD797tpuecL2Dopdw==",
          "encoding":"base64",
          "height":34,
          "id":2,
@@ -18,7 +18,7 @@
         }, 
         {
          "compression":"zlib",
-         "data":"eJzt180Jg0AQQOExVVi9PaQDO7ADa5EgQVmeP4eNmuF9sBcFV557GCOeo2vufoP62lfEO3ht3ftc\/+qbZR0982ivbPqE56UGuzC7MLswuzC7MLswu7CMXdYzaDmP7s2t6zm3XGfn3XLvbDKelxrswuzC7MLswq7sMvzRN\/C8LPbmF81swezC7MIydvG\/8Xcynpca7MLswuzC7MLswuzC7MLGB3WZACLQVp0=",
+         "data":"eJztl1sOhCAMRcFluP+VuAO\/3Mr4NzEZYu1cJhYYAnhP0g8ftORITOsc+Sfz5Nwm4uXP0M9CHPcDiz8jllOuk\/ljOVtE7vsui+HdlPwtkLJfi5ecOr2R4uUJ0AuGXjD0gqEXDL1gRvQyR\/rRcB3rW2Wfq+PXOtlT69otk9KLWs8L+92ydXpjxP9LCegFQy+Yml7Wjr4BzwuGXjAje9n9NSxYveTUqonep3W\/Fi+5tWrD83JFz267\/57zSs+N26dOb3OjlSfMR\/SCoZdyjNy\/5EAvGHrB0AuGXtrnDU7CiyE=",
          "encoding":"base64",
          "height":34,
          "id":3,
@@ -36,7 +36,7 @@
          "name":"objects",
          "objects":[
                 {
-                 "gid":491,
+                 "gid":493,
                  "height":48,
                  "id":2,
                  "name":"",
@@ -48,7 +48,7 @@
                  "y":248
                 }, 
                 {
-                 "gid":487,
+                 "gid":489,
                  "height":48,
                  "id":3,
                  "name":"",
@@ -60,7 +60,7 @@
                  "y":248
                 }, 
                 {
-                 "gid":490,
+                 "gid":492,
                  "height":48,
                  "id":4,
                  "name":"",
@@ -72,7 +72,7 @@
                  "y":144
                 }, 
                 {
-                 "gid":490,
+                 "gid":492,
                  "height":48,
                  "id":5,
                  "name":"",
@@ -130,6 +130,89 @@
                  "width":8,
                  "x":360,
                  "y":240
+                }, 
+                {
+                 "gid":492,
+                 "height":48,
+                 "id":23,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":392,
+                 "y":64
+                }, 
+                {
+                 "gid":492,
+                 "height":48,
+                 "id":24,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":144,
+                 "y":64
+                }, 
+                {
+                 "gid":1,
+                 "height":14,
+                 "id":25,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":360,
+                 "y":56
+                }, 
+                {
+                 "gid":1,
+                 "height":14,
+                 "id":26,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":200,
+                 "y":56
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":5,
+         "name":"anchors etc",
+         "objects":[
+                {
+                 "gid":416,
+                 "height":8,
+                 "id":21,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":280,
+                 "y":8
+                }, 
+                {
+                 "gid":419,
+                 "height":8,
+                 "id":22,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":8,
+                 "x":280,
+                 "y":272
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -137,8 +220,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":5,
- "nextobjectid":21,
+ "nextlayerid":6,
+ "nextobjectid":27,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.2",
@@ -149,36 +232,40 @@
          "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/mods\/againandagain\/tilesets\/occasus\/occasus.json"
         }, 
         {
-         "firstgid":8,
+         "firstgid":10,
          "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/tilesets\/packed\/materials.json"
         }, 
         {
-         "firstgid":205,
-         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/tilesets\/packed\/materials.json"
+         "firstgid":207,
+         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Packed\/tilesets\/packed\/materials.json"
         }, 
         {
-         "firstgid":402,
+         "firstgid":404,
          "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
-         "firstgid":426,
+         "firstgid":428,
          "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/tilesets\/packed\/supports.json"
         }, 
         {
-         "firstgid":463,
-         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/tilesets\/packed\/miscellaneous.json"
+         "firstgid":465,
+         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Packed\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
-         "firstgid":487,
-         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/assets\/Packed\/tilesets\/packed\/objects-by-colonytag\/cultist.json"
+         "firstgid":489,
+         "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Packed\/tilesets\/packed\/objects-by-colonytag\/cultist.json"
         }, 
         {
-         "firstgid":496,
+         "firstgid":498,
          "source":"..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/mods\/againandagain\/tilesets\/occasus\/ruinmaterials.json"
         }, 
         {
-         "firstgid":536,
+         "firstgid":538,
          "source":"..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/mods\/againandagain\/tilesets\/moogCity\/chemcryoprom.json"
+        }, 
+        {
+         "firstgid":544,
+         "source":"..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/mods\/againandagain\/tilesets\/moogCity\/materials_black.json"
         }],
  "tilewidth":8,
  "type":"map",

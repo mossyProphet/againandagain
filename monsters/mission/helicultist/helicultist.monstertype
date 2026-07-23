@@ -13,9 +13,11 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/monster.lua"
+      "/monsters/monster.lua",
+       "/monsters/so_factionguard.lua"
     ],
-
+    "npcFaction" : 3,
+    "distanceOfRecognition" : 75,
     "behavior" : "helicultist",
 
     "metaBoundBox" : [-8, -8, 8, 8],
@@ -37,6 +39,8 @@
     "deathParticles" : "deathPoof",
     "knockoutEffect" : "",
 
+    
+
     "statusSettings" : {
       "statusProperties" : {
         "targetMaterialKind" : "wooden"
@@ -48,6 +52,7 @@
 
       "primaryScriptSources" : [
         "/stats/monster_primary.lua"
+       
       ],
       "primaryScriptDelta" : 5,
 

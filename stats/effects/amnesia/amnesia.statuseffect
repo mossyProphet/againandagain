@@ -1,0 +1,11 @@
+{
+  "name" : "amnesia",
+
+  "effectConfig" : {
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "amnesia.lua"
+  ]
+}

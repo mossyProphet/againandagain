@@ -1,0 +1,17 @@
+{
+  "itemName" : "icepick",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "medicine",
+  "inventoryIcon" : "icepick.png",
+  "description" : "Do not do it",
+  "shortdescription" : "Ice Pick",
+  "effects" : [ [
+      {
+        "effect" : "amnesia",
+        "duration" : 3
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "stimuse" ]
+}

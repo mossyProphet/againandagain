@@ -1,0 +1,20 @@
+[
+    {
+        "op": "add",
+        "path": "/scriptConfig/npcFaction",
+        "value": 3
+    },
+    {
+        "op": "replace",
+        "path": "/baseType",
+        "value": "guard"
+    },
+    {
+        "op": "add",
+        "path": "/scripts",
+        "value": [
+            "/npcs/bmain.lua",
+            "/npcs/so_factionguard.lua"
+        ]
+    }
+]
