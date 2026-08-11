@@ -3,9 +3,9 @@ function init()
 end
 
 function update(dt)
-   world.sendEntityMessage(entity.id(), "nullRep", "so_occasusrep")
-   world.sendEntityMessage(entity.id(), "nullRep", "so_hrassrep")
-   world.sendEntityMessage(entity.id(), "nullRep", "so_chempromrep")
+   world.sendEntityMessage(entity.id(), "nullRep", 3)
+   world.sendEntityMessage(entity.id(), "nullRep", 4)
+   world.sendEntityMessage(entity.id(), "nullRep", 5)
 end
 
 function uninit()

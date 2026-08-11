@@ -1,0 +1,25 @@
+{
+  "id" : "introductiontoruinouspowers",
+  "species" : "human",
+  "title" : "On the Nature of Divine Decay",
+  "description" : "The private journal of the Occasus cult leader.",
+  "icon" : "introductiontoruinouspowers.png",
+  "contentPages" : [
+    "The Protectorate calls it Ruin.Letheia calls it a resource. The enlightened call it the Unraveling.
+    
+    It is the slow, inevitable sunset of all structures. Do not weep for the falling star; celebrate its descent. 
+    
+    For in its collapse, it scatters the seeds of new forms.
+    
+    We do not worship destruction for the sake of pain, but for the sake of release. 
+    
+    To be unmade is to be reborn in the great cosmic solvent. 
+    
+    Amen to the entropy.
+"
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

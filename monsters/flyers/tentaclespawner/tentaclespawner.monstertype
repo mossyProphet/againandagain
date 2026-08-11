@@ -1,7 +1,7 @@
 {
   "type" : "tentaclespawner",
   "shortdescription" : "tentaclespawner",
-  "description" : "-todo-",
+  "description" : "Cluster of gnats feeding on ruinous energies. Will eventually decompose",
 
   "categories" : [ "tentaclespawner" ],
   "parts" : [ "body" ],
@@ -12,8 +12,11 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/monster.lua"
+      "/monsters/monster.lua",
+       "/monsters/so_factionguard.lua"
     ],
+    "npcFaction" : 3,
+    "distanceOfRecognition" : 75,
 
     "behavior" : "monster",
 

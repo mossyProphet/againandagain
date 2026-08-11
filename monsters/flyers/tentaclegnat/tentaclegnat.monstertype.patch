@@ -1,0 +1,16 @@
+[
+    {
+        "op": "add",
+        "path": "/baseParameters/npcFaction",
+        "value": 3
+    },
+    
+    {
+        "op": "add",
+        "path": "/baseParameters/scripts",
+        "value": [
+      "/monsters/monster.lua",
+       "/monsters/so_factionguard.lua"
+    ]
+    }
+]

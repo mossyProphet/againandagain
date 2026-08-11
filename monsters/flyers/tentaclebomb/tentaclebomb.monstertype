@@ -1,7 +1,7 @@
 {
   "type" : "tentaclebomb",
   "shortdescription" : "tentaclebomb",
-  "description" : "During storms it attaches itself to trees to not blow away.",
+  "description" : "Ruinous equivalent of neutrophils in ruinous ecosystem: multituous, explosive.... and unreliable",
 
   "categories" : [ "tentaclebomb" ],
   "parts" : [ "body" ],
@@ -12,8 +12,11 @@
 
   "baseParameters" : {
     "scripts" : [
-      "/monsters/monster.lua"
+      "/monsters/monster.lua",
+       "/monsters/so_factionguard.lua"
     ],
+    "npcFaction" : 3,
+    "distanceOfRecognition" : 75,
 
     "behavior" : "monster",
     "deathBehavior" : "monster-death",

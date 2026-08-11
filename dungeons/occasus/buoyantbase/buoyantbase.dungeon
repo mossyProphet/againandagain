@@ -138,7 +138,87 @@
 				[ "ignorePartMaximumRule" ]
 			],
 			"def": [ "tmx", "occasusbuoyantbasesurfacecaplefttreatmentbuilding.json" ],
-			"chance": 1
+			"chance": 0
+		},
+		{
+			"name": "surfaceBuildingLeftSqualorBuilding",
+			"rules": [
+				[
+					"doNotConnectToPart",
+					[ "edgeright", "edgeleft", "base", "ascent", "capright", "capleft" ]
+				],
+				[
+					"maxSpawnCount",
+					[ 1 ]
+				],
+				[ "ignorePartMaximumRule" ]
+			],
+			"def": [ "tmx", "occasusbuoyantbasesurfacecapleftsqualorbuilding.json" ],
+			"chance": 0
+		},
+		{
+			"name": "surfaceBuildingCenterSciencingBuilding",
+			"rules": [
+				[
+					"doNotConnectToPart",
+					[ "edgeright", "edgeleft", "base", "ascent", "capright", "capleft" ]
+				],
+				[
+					"maxSpawnCount",
+					[ 1 ]
+				],
+				[ "ignorePartMaximumRule" ]
+			],
+			"def": [ "tmx", "occasusbuoyantbasesurfacecapcentersciencingbuilding.json" ],
+			"chance": 0
+		},
+		{
+			"name": "surfaceBuildingCenterBaselineBuilding",
+			"rules": [
+				[
+					"doNotConnectToPart",
+					[ "edgeright", "edgeleft", "base", "ascent", "capright", "capleft" ]
+				],
+				[
+					"maxSpawnCount",
+					[ 1 ]
+				],
+				[ "ignorePartMaximumRule" ]
+			],
+			"def": [ "tmx", "occasusbuoyantbasesurfacecapcenterbaselinebuilding.json" ],
+			"chance": 0
+		},
+		{
+			"name": "surfaceBuildingCenterSqualorBuilding",
+			"rules": [
+				[
+					"doNotConnectToPart",
+					[ "edgeright", "edgeleft", "base", "ascent", "capright", "capleft" ]
+				],
+				[
+					"maxSpawnCount",
+					[ 1 ]
+				],
+				[ "ignorePartMaximumRule" ]
+			],
+			"def": [ "tmx", "occasusbuoyantbasesurfacecapcentersqualorbuilding.json" ],
+			"chance": 0
+		},
+		{
+			"name": "surfaceBuildingCenterLibraryBuilding",
+			"rules": [
+				[
+					"doNotConnectToPart",
+					[ "edgeright", "edgeleft", "base", "ascent", "capright", "capleft" ]
+				],
+				[
+					"maxSpawnCount",
+					[ 1 ]
+				],
+				[ "ignorePartMaximumRule" ]
+			],
+			"def": [ "tmx", "occasusbuoyantbasesurfacecapcenterlibrarybuilding.json" ],
+			"chance": 0
 		},
 		{
 			"name": "surfaceStorage",

@@ -97,7 +97,7 @@ function spawnWave(spawnPoint,wave)
 	  	   spawnArcherParams= { moveLeft = true } 
 		    local spawnPositionRange = config.getParameter("spawnPositionRange", 5)
 			positionArcher = vec2.add(position, {math.random(spawnPositionRange[1], spawnPositionRange[2]), 0})
-			entityId = world.spawnNpc(positionArcher, "human", "cultistarcher", world.threatLevel(), nil, { scriptConfig =  spawnArcherParams})
+			entityId = world.spawnNpc(positionArcher, "human", "cultist", world.threatLevel(), nil, { scriptConfig =  spawnArcherParams})
 		end
 	  end
 	  
