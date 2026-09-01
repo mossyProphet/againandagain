@@ -20,7 +20,7 @@
   },
   "name": "neptune",
   //"ores": "depth2",
-  "parallax": "/parallax/surface/newptune.parallax",
+  "parallax": "/parallax/surface/neptune.parallax",
   "skyOptions": [
     {
      

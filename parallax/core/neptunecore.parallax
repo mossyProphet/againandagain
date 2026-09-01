@@ -1,0 +1,621 @@
+{
+  "verticalOrigin" : 135,
+
+  "layers" : [
+    {
+      "kind" : "tile/nitrogenocean",
+      "repeatY" : true,
+      "tileLimitTop" : 610,
+      "parallax" : 1.0,
+      "nohueshift" : true
+    },
+    {
+      "kind" : "nitrogenoceanbelow",
+      "offset" : [0, 610],
+      "parallax" : 1.0,
+      "nohueshift" : true
+    },
+
+    {
+      "kind" : "nitrogenocean1",
+      "offset" : [0, 278],
+      "parallax" : [1.5, 1.05],
+      "nohueshift" : true
+    },
+    {
+      "kind" : "nitrogenocean2",
+      "offset" : [0, 283],
+      "parallax" : [2, 1.05],
+      "nohueshift" : true
+    },
+    {
+      "kind" : "nitrogenocean3",
+      "offset" : [0, 283],
+      "parallax" : [3, 1.08],
+      "nohueshift" : true
+    },
+    {
+      "kind" : "nitrogenocean4",
+      "offset" : [0, 284],
+      "parallax" : [4, 1.11],
+      "nohueshift" : true
+    },
+    {
+      "kind" : "nitrogenocean5",
+      "offset" : [0, 286],
+      "parallax" : [5, 1.14],
+      "nohueshift" : true
+    },
+    {
+      "kind" : "nitrogenocean6",
+      "offset" : [0, 288],
+      "parallax" : [6, 1.17],
+      "nohueshift" : true
+    },
+    {
+      "kind" : "nitrogenocean7",
+      "offset" : [0, 290],
+      "parallax" : [7, 1.20],
+      "nohueshift" : true
+    },
+    {
+      "kind" : "nitrogenocean8",
+      "offset" : [0, 292],
+      "parallax" : [8, 1.23],
+      "nohueshift" : true
+    },
+    {
+      "kind" : "nitrogenocean",
+      "offset" : [0, 292],
+      "parallax" : [8, 1.24],
+      "nohueshift" : true
+    },
+    {
+      "kind" : "nitrogenoceanglow",
+      "offset" : [0, 230],
+      "parallax" : [8.01, 1.231],
+      "nohueshift" : true
+    },
+
+        {
+      "kind" : "gasgiantback",
+      "baseCount" : 4,
+      "nohueshift" : false,
+      "repeatY" : true,
+      "parallax" : 1500,
+      "directives" : "fade=000000=0.3"
+    },
+       {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 20],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 70],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 90],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 30],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 70],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 90],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },    
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 450],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 490],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 410],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 450],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 490],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 410],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+ 
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 350],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 390],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 310],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 350],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 390],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 410],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 250],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 290],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 210],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 250],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 290],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 210],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    }, 
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 520],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 570],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 590],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 530],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 570],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 590],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },    
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 650],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 690],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 710],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 650],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 690],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 710],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+ 
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 750],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 790],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 810],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 750],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 790],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 810],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 920],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 950],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 1010],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : true,
+      "timeOfDayCorrelation" : "dayCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 920],
+      "parallax" : 9,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 940],
+      "parallax" : 14,
+      "minSpeed" : 500,
+      "maxSpeed" : 2500,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    },
+    {
+      "kind" : "gasgiantcloud",
+ 
+ "baseCount" : 7,     "offset" : [0, 1110],
+      "parallax" : 6,
+      "minSpeed" : 1000,
+      "maxSpeed" : 5000,
+      "fadePercent" : 0.0,
+      "unlit" : false,
+      "timeOfDayCorrelation" : "nightCloudVisible"
+    }
+  ]
+}

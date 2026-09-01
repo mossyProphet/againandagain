@@ -21,7 +21,7 @@
 
   "hueShiftOptions" : [ 0 ],
 
-  "parallax" : "/parallax/underground/neptunebottom.parallax",
+  "parallax" : "/parallax/core/gasgiantcore.parallax",
 
   "ambientNoises" : {
     "day" : {
