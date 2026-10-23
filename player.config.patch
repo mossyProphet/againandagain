@@ -244,6 +244,12 @@
         "op": "add",
         "path": "/genericScriptContexts/factions",
         "value": "/scripts/player/reputationmanipulation.lua"
+    },
+
+    {
+        "op": "add",
+        "path": "/genericScriptContexts/cybernetics",
+        "value": "/scripts/player/cybernetics.lua"
     }
   ]
 ]

@@ -1,0 +1,22 @@
+{
+  "itemName": "cybernetic_implant",
+  "rarity": "Essential",
+  "price": 10000,
+  "maxStack": 1,
+  "category": "medicine",
+  "inventoryIcon": "cybernetic_implant.png",
+  "shortdescription": "Cybernetic Implant",
+  "description": "Permanently enhances the user's physical capabilities.",
+  "scripts": [ "/items/augments/cybernetics/cybernetic_implant.lua" ],
+
+   "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "cyberneticEffectCategory": "cybernetics",
+   "cyberneticStats": [ 
+      { "stat": "maxHealth",        "amount": 50 },
+      { "stat": "powerMultiplier", "baseMultiplier": 1.25 },
+      { "stat": "protection",       "amount": 5 }
+    ],
+   "cyberneticCosmetic": "cybernetic_arm"
+}

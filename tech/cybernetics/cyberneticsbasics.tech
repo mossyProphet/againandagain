@@ -1,0 +1,11 @@
+{
+  "name" : "cyberneticsbasics",
+  "type" : "head",
+
+  "scripts" : ["cyberneticsbasics.lua"],
+
+  "description" : "Don't worry, its just a piece of titanium with gold on your brainstem",
+  "shortDescription" : "Basic Cybernetics Controls",
+  "rarity" : "Legendary",
+  "icon" : "/tech/walljump.png"
+}

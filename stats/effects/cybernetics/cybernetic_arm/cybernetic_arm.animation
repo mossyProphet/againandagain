@@ -1,0 +1,35 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "default": {
+        "states": {
+          "default": {
+            "frames": 1,
+            "cycle": 1
+          }
+        }
+      }
+    },
+    "parts": {
+      "arm": {
+        "type": "drawable",
+        "partStates": {
+          "default": {
+            "default": {
+              "properties": {
+                "image": "/stats/effects/cybernetics/cybernetic_arm/arm.png",
+                "transformationGroups": ["hand"]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "transformationGroups": {
+    "hand": {
+      "interpolated": true
+    }
+  }
+}

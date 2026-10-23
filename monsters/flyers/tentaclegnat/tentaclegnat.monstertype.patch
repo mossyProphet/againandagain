@@ -9,8 +9,8 @@
         "op": "add",
         "path": "/baseParameters/scripts",
         "value": [
-      "/monsters/monster.lua",
-       "/monsters/so_factionguard.lua"
-    ]
+            "/monsters/monster.lua",
+            "/monsters/so_factionguard.lua"
+        ]
     }
 ]

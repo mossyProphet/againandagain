@@ -1,0 +1,13 @@
+{
+  "name": "cybernetic_arm",
+  "animationConfig": "/stats/effects/cybernetics/cybernetic_arm/cybernetic_arm.animation",
+  "duration": 999999,
+  "blocking": false,
+  "effects": [],
+
+  "scripts": [
+    "/stats/effects/cybernetics/cybernetic_arm/cybernetic_arm.lua"
+  ],
+
+  "armImage": "/stats/effects/cybernetics/cybernetic_arm/arm.png"
+}

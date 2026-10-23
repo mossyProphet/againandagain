@@ -1,12 +1,12 @@
 {
 	"metadata": {
 		"name": "skullfoundry",
-		"species": "generic",
+		"species": "human",
 		"rules": [],
 		"anchor": [ "generator" ],
 		"gravity": 80,
-		"maxRadius": 256,
-		"maxParts": 24,
+		"maxRadius": 1024,
+		"maxParts": 36,
 		"protected": true,
 		"extendSurfaceFreeSpace": 64
 	},
@@ -24,12 +24,12 @@
 					[ "stairway", "stairwaytop", "generator" ]
 				]
 			],
-			"def": [ "tmx", "occasusskullfoundrygeneratorroom.json" ],
-			"chance": 0
+			"def": [ "tmx", "occasusskullfoundrygeneratorroom.json" ]
 		},
 		{
 			"name": "basement",
 			"rules": [
+			[ "ignorePartMaximumRule" ],
 				[
 					"maxSpawnCount",
 					[ 1 ]
@@ -41,48 +41,74 @@
 		{
 			"name": "stairway",
 			"rules": [
-				[ "ignorePartMaximumRule" ],
+				
 				[
 					"doNotConnectToPart",
 					[ "generator"]
 				]
 			],
-			"def": [ "tmx", "occasusskullfoundrystairway.json" ],
-			"chance": 0
+			"def": [ "tmx", "occasusskullfoundrystairway.json" ]
+
 		},
 		{
 			"name": "stairwaybottom",
 			"rules": [
-				[ "ignorePartMaximumRule" ],
+				
 				[
 					"doNotConnectToPart",
 					[ "stairwaytop"]
 				]
 			],
-			"def": [ "tmx", "occasusskullfoundrystairwaybottom.json" ],
-			"chance": 0
+			"def": [ "tmx", "occasusskullfoundrystairwaybottom.json" ]
+
 		},
 		{
 			"name": "stairwaytop",
 			"rules": [
-			[ "ignorePartMaximumRule" ],
+				
+				[
+					"maxSpawnCount",
+					[ 2 ]
+				],
 				[
 					"doNotConnectToPart",
-					[ "stairwaybottom"]
+					[ "stairwaybottom", "generator", "livingroom", "workroom", "changingroom" ]
 				]
 			],
-			"def": [ "tmx", "occasusskullfoundrystairwaytop.json" ],
-			"chance": 0
+			"def": [ "tmx", "occasusskullfoundrystairwaytop.json" ]
+
 		},
 		{
 			"name": "livingroom",
 			"rules": [
 				[
 					"maxSpawnCount",
-					[ 4 ]
+					[ 2 ]
 				]
 			],
 			"def": [ "tmx", "occasusskullfoundrylivingroom.json" ],
+			"chance": 0.33
+		},
+		{
+			"name": "workroom",
+			"rules": [
+				[
+					"maxSpawnCount",
+					[ 2 ]
+				]
+			],
+			"def": [ "tmx", "occasusskullfoundryworkroom.json" ],
+			"chance": 0.33
+		},
+		{
+			"name": "changingroom",
+			"rules": [
+				[
+					"maxSpawnCount",
+					[ 2 ]
+				]
+			],
+			"def": [ "tmx", "occasusskullfoundrychangingroom.json" ],
 			"chance": 0.33
 		},
 		{
