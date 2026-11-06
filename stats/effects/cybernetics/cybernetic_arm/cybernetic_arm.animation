@@ -18,7 +18,8 @@
             "default": {
               "properties": {
                 "image": "/stats/effects/cybernetics/cybernetic_arm/arm.png",
-                "transformationGroups": ["hand"]
+                "transformationGroups": ["hand"],
+                "offset": [0.32, -0.28]
               }
             }
           }
