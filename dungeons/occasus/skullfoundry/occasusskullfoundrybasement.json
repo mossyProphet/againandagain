@@ -4,7 +4,7 @@
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztwwEJAAAMBKHj+4dejoGCq6aqqqqqqqr64AG28A5x",
+         "data":"eJztw8EJAAAMA6Ej+w\/dX6dQcNVUVVVVVVVVVVVV\/Qdk1BSx",
          "encoding":"base64",
          "height":8,
          "id":1,
@@ -12,13 +12,13 @@
          "opacity":0.5,
          "type":"tilelayer",
          "visible":true,
-         "width":231,
+         "width":331,
          "x":0,
          "y":0
         }, 
         {
          "compression":"zlib",
-         "data":"eJztzjERADAMA7HyB1MshdTJQxDEg\/5O+58jqbUHVEkXqJK2P4ApbX8AU9r+AKa0\/QFMknr7fInEfA==",
+         "data":"eJztzqENADAMBLHuP0xn6UhFDyOFJcAnmd85kqROD4BSugCU0vQHwGZp+gNgszT9AbBZmv4A2EyS1OsDEz1psg==",
          "encoding":"base64",
          "height":8,
          "id":2,
@@ -26,7 +26,7 @@
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":231,
+         "width":331,
          "x":0,
          "y":0
         }, 
@@ -44,7 +44,7 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":888,
+                 "x":1288,
                  "y":8
                 }, 
                 {
@@ -56,7 +56,7 @@
                  "type":"",
                  "visible":true,
                  "width":8,
-                 "x":944,
+                 "x":1344,
                  "y":8
                 }],
          "opacity":1,
@@ -83,5 +83,5 @@
  "tilewidth":8,
  "type":"map",
  "version":1.1,
- "width":231
+ "width":331
 }
